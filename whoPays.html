@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Pays Today</title>
+</head>
+<body>
+    <script>
+        function whosPaying(names) {
+        var n = names.length;
+        var result = Math.random();
+        result=result*n;
+        result=Math.floor(result);
+        var outPut=names[result]+" is going to buy lunch today!";
+        alert(outPut);
+        }
+        var names =["Madhura", "Dilip", "Sakshi", "Kavana", "Madhu", "Chandana", "Manasa"];
+        whosPaying(names);
+    </script>
+</body>
+</html>
